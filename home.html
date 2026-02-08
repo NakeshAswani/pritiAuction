@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Priti Auction</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+        <section class="container-fluid p-0 headLine"></section>
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/image 1.svg">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#header" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="header" aria-labelledby="offcanvasNavbarLabel" id="header">
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand" href="#">
+                                <img src="images/image 1.svg">
+                            </a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-end">
+                            <ul class="navbar-nav align-items-lg-center navbarUl">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Collection</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Help</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Tips & Tricks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Winners</a>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="d-flex gap-lg-0 gap-5">
+                                        <a class="nav-link active" href="#">
+                                            <button class="btn text-capitalize text-white rounded-3 navBtn1">
+                                                get started
+                                            </button>
+                                        </a>
+                                        <a class="nav-link active" href="#">
+                                            <button class="btn text-capitalize text-white rounded-3 navBtn2">
+                                                log in
+                                            </button>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container-fluid banner position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="bannerText text-center text-white">
+                            <img src="images/Vector 1.svg" class="mb-3">
+                            <h1 class="fw-bolder text-uppercase mb-2">
+                                World’s Biggest <span>Auction Platform</span>
+                            </h1>
+                            <h5 class="fw-normal mb-3">
+                                We Bring the showroom to you.
+                            </h5>
+                            <button class="bg-white mt-3 border-0 rounded-3">Discover Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bannerBlock1 position-absolute text-center d-flex justify-content-center align-items-center flex-column rounded-4 py-4">
+                <figure class="bg-white p-3 rounded-3 mb-2">
+                    <img src="images/note.svg">
+                </figure>
+                <h5><b>120</b> Year</h5>
+            </div>
+            <div class="bannerBlock2 position-absolute text-center d-flex justify-content-center align-items-center flex-column rounded-4 py-4">
+                <figure class="bg-white p-3 rounded-3 mb-2">
+                    <img src="images/medal.svg">
+                </figure>
+                <h5><b>12</b> Bid So Far</h5>
+            </div>
+            <div class="bannerBlock3 position-absolute">
+                <figure class="rounded-4 m-0">
+                    <img src="images/Rectangle 8.svg" class="w-100 h-100">
+                </figure>
+            </div>
+            <div class="bannerBlock4 position-absolute">
+                <figure class="rounded-4 m-0">
+                    <img src="images/Rectangle 9.svg" class="w-100 h-100">
+                </figure>
+            </div>
+            <div class="bannerBlock5 position-absolute">
+                <figure class="rounded-4 m-0">
+                    <img src="images/Rectangle 7.svg" class="w-100 h-100">
+                </figure>
+            </div>
+            <div class="bannerBar position-absolute top-100 start-50 translate-middle bg-white rounded-4">
+                <div class="row row-cols-5">
+                    <div class="col">
+                        <div class="bannerBarCol">
+                            <h5 class="fw-semibold">Location</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <article class="opacity-50">Norway</article>
+                                <i class="fa-solid fa-chevron-down opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bannerBarCol">
+                            <h5 class="fw-semibold">Year</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <article class="opacity-50">793 AD</article>
+                                <i class="fa-solid fa-chevron-down opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bannerBarCol">
+                            <h5 class="fw-semibold">Religion</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <article class="opacity-50">Lutheranism</article>
+                                <i class="fa-solid fa-chevron-down opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bannerBarCol">
+                            <h5 class="fw-semibold">Type</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <article class="opacity-50">Weapons</article>
+                                <i class="fa-solid fa-chevron-down opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button class="btn text-white d-flex justify-content-center p-2">
+                            <img src="images/search-status.svg">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid main">
+            <div class="container text-center mouseMain">
+                <div class="mouse position-relative mx-auto">
+                    <span class="mx-auto d-block position-absolute translate-middle-x"></span>
+                </div>
+                <article>Explore Auctions</article>
+            </div>
+            <div class="container collection">
+                <div class="d-flex justify-content-between align-items-center mb-5">
+                    <h3 class="text-">Our Auction Collections:</h3>
+                    <h4>View all</h4>
+                </div>
+                <div class="row row-cols-5">
+                    <div class="col">
+                        <div class="text-center">
+                            <figure class="py-2 px-3 rounded-4 mx-auto mb-4 d-flex justify-content-center align-items-start">
+                                <img src="images/4c98c4a9e869f58922b101175a20a25a.png" class="w-100 h-100">
+                            </figure>
+                            <h5 class="fw-normal">Home Decor</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <figure class="py-2 px-3 rounded-4 mx-auto mb-4 d-flex justify-content-center align-items-start">
+                                <img src="images/ccf61369f9959e6bad174c841b978fd7.png" class="w-100 h-100">
+                            </figure>
+                            <h5 class="fw-normal">Antique Furniture</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <figure class="py-2 px-3 rounded-4 mx-auto mb-4 d-flex justify-content-center align-items-start">
+                                <img src="images/012e6f4d7b767d9a6c2c308268a8f7ba.png" class="w-100 h-100">
+                            </figure>
+                            <h5 class="fw-normal">Recycle Furniture</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <figure class="py-2 px-3 rounded-4 mx-auto mb-4 d-flex justify-content-center align-items-start">
+                                <img src="images/e4b0fa0545845d387eb9e008346e76f6.png" class="w-100 h-100">
+                            </figure>
+                            <h5 class="fw-normal">Furniture</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <figure class="py-2 px-3 rounded-4 mx-auto mb-4 d-flex justify-content-center align-items-start">
+                                <img src="images/0011ca4887ce1f942f00cb88f457e90f.png" class="w-100 h-100">
+                            </figure>
+                            <h5 class="fw-normal">Living Room</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container fProduct">
+                <h2 class="text-center mb-5 fw-bolder">
+                    Featured Products
+                </h2>
+                <div class="row gx-3 position-relative">
+                    <i class="fa-solid fa-chevron-left text-white rounded-circle d-flex justify-content-center align-items-center position-absolute top-50 start-0 translate-middle-y z-1 "></i>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                                <h6 class="py-1 px-2 rounded-circle text-white">1</h6>
+                            </div>
+                            <img src="images/image 77.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Morden Storage</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (1).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Slim Dining Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                                <h6 class="py-1 px-2 rounded-circle text-white">1</h6>
+                            </div>
+                            <img src="images/image 77 (2).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Ottoman for Loft Sofa</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (3).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Arne Dining Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-white rounded-circle d-flex justify-content-center align-items-center position-absolute top-50 end-0 translate-middle-y z-1 "></i>
+                </div>
+                <div class="row gx-3 mb-5 position-relative">
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (4).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">White Oak Nightstand</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                                <h6 class="py-1 px-2 rounded-circle text-white  m-0 cardThumbsUp">
+                                    <img src="images/bi_hand-thumbs-up-fill.svg">
+                                </h6>
+                            </div>
+                            <img src="images/image 77 (5).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Vipp Desk Lamp</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (6).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Hironpal Table</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (7).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Rocking Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="border-0 rounded-3 d-block p-2 text-white mx-auto fProductBtn">Load More</button>
+                <div class="w-100 auctionStarting">
+                    <div class="row">
+                        <div class="col-lg-5 mx-auto">
+                            <h3 class="fw-bolder text-white text-uppercase text-center">
+                                Auctions starting right now 50% off
+                            </h3>
+                            <button class="border-0 rounded-3 d-block p-2 text-black bg-white mx-auto">Load More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container how">
+                <h2 class="text-center mb-5 fw-bolder">
+                    How it Works?
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="howBlock rounded-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <figure class="bg-white p-3 rounded-3">
+                                    <img src="images/note.svg" alt="">
+                                </figure>
+                                <h1 class="">01</h1>
+                            </div>
+                            <h5 class="fw-bolder mb-2">Browse our catalog</h5>
+                            <article>
+                                Sit lectus eleifend id consectetur amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="howBlock rounded-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <figure class="bg-white p-3 rounded-3">
+                                    <img src="images/note.svg" alt="">
+                                </figure>
+                                <h1 class="">02</h1>
+                            </div>
+                            <h5 class="fw-bolder mb-2"> Bid for bargains</h5>
+                            <article>
+                                Sit lectus eleifend id consectetur amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="howBlock rounded-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <figure class="bg-white p-3 rounded-3">
+                                    <img src="images/note.svg" alt="">
+                                </figure>
+                                <h1 class="">03</h1>
+                            </div>
+                            <h5 class="fw-bolder mb-2">Collect your winnings</h5>
+                            <article>
+                                Sit lectus eleifend id consectetur amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container fProduct">
+                <h2 class="text-center mb-5 fw-bolder">
+                    Special Products
+                </h2>
+                <div class="row gx-3 position-relative">
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (8).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Sko Shoe Rack Grey</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (9).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Teardrop Patio Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (10).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Cosgrave Coffee Table</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (11).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Shelves Wall Mounted</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-3 position-relative">
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (12).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Floating Shelves Wall </h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (13).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">BONZY Floor Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (14).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Zero Gravity Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (15).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Armen Living Morden</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container special">
+                <h2 class="text-center mb-5 fw-bolder">
+                    Special Deal
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-3 border-0 specialCard">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="images/Rectangle 17027.svg" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title fw-bolder">Dressing Table</h5>
+                                        <small class="text-body-secondary mb-2">New Balance Arishi <br> Sport V1</small>
+                                        <div class="d-flex gap-3 mb-3">
+                                            <div class="dealTime text-center">
+                                                <div class="d-flex justify-content-center align-items-center text-white mb-1 rounded-circle">00</div>
+                                                <article class="fw-bolder">days</article>
+                                            </div>
+                                            <div class="dealTime text-center">
+                                                <div class="d-flex justify-content-center align-items-center text-white mb-1 rounded-circle">00</div>
+                                                <article class="fw-bolder">hours</article>
+                                            </div>
+                                            <div class="dealTime text-center">
+                                                <div class="d-flex justify-content-center align-items-center text-white mb-1 rounded-circle">52</div>
+                                                <article class="fw-bolder">mins</article>
+                                            </div>
+                                        </div>
+                                        <h4 class="fw-bolder">$18.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specialCardBtn">
+                                <button class="text-white border-0 rounded-3 w-100">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3 border-0 specialCard">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="images/Rectangle 17027 (1).svg" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title fw-bolder">Night Lamp</h5>
+                                        <small class="d-block text-body-secondary mb-3">New Balance Arishi <br> Sport V1</small>
+                                        <img src="images/Group 222.svg" class="mb-3">
+                                        <h4 class="fw-bolder">$18.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specialCardBtn">
+                                <button class="text-white border-0 rounded-3 w-100">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3 border-0 specialCard">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="images/Rectangle 17027 (2).svg" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title fw-bolder">Easy Chair</h5>
+                                        <small class="d-block text-body-secondary mb-3">New Balance Arishi <br> Sport V1</small>
+                                        <img src="images/Group 222.svg" class="mb-3">
+                                        <h4 class="fw-bolder">$18.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specialCardBtn">
+                                <button class="text-white border-0 rounded-3 w-100">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row w-100 align-items-center rounded-4 ">
+                            <div class="col-lg-6">
+                                <h4 class="fw-bolder mb-2">Best Colorful Lamp</h4>
+                                <article class="fw-light">Festival Season is here</article>
+                                <button class="border-0 rounded-3 text-white fw-medium text-uppercase">Shop Now</button>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="images/image 77 (16).svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row w-100 align-items-center rounded-4 ">
+                            <div class="col-lg-6">
+                                <h4 class="fw-bolder mb-2">Comfortable Chair</h4>
+                                <article class="fw-light">Festival Season is here</article>
+                                <button class="border-0 rounded-3 text-white fw-medium text-uppercase">Shop Now</button>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="images/image 83.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container fProduct">
+                <h2 class="text-center mb-5 fw-bolder">
+                    Upcoming Auction
+                </h2>
+                <div class="row gx-3 position-relative">
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (17).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Ceramic Tealight Holder</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (18).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Semper Suscipit</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (19).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Hanging Lamp</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (20).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Round Chair</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-3 position-relative">
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (21).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Floating round Decor</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (22).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Preston End Table</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (23).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Aliquam Consequat</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 pt-5 fProductCard">
+                            <div class="cardHead px-3 mb-4 d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-2">
+                                    <article class="text-white rounded-3">60% OFF</article>
+                                    <article class="text-white rounded-3">HOT</article>
+                                </div>
+                            </div>
+                            <img src="images/image 77 (24).svg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-title mb-3 fw-bolder">Table Lamp</h6>
+                                <article class="card-text mb-3 d-flex justify-content-between align-items-center">
+                                    <h5>
+                                        00:00:05
+                                    </h5>
+                                    $ 2.97
+                                </article>
+                                <a href="#" class="btn fw-normal text-white text-center w-100 mb-4">Bid Now</a>
+                                <div class="mt-1 text-center border-top pt-2 cardPartOnHover">
+                                    Buy it Now for $99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5 class="mb-3 fw-bolder">Site Links</h5>
+                        <ul class="p-0">
+                            <li class="mb-2">Auction</li>
+                            <li class="mb-2">PritiAuction Reviews</li>
+                            <li class="mb-2">PritiAuction Is Legit</li>
+                            <li class="mb-2">Press</li>
+                            <li class="mb-2">Log In</li>
+                            <li class="mb-2">Create Account</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="mb-3 fw-bolder">Help</h5>
+                        <ul class="p-0">
+                            <li class="mb-2">How to Bid in an Auction</li>
+                            <li class="mb-2">Tips & Tricks</li>
+                            <li class="mb-2">Frequently Asked Questions</li>
+                            <li class="mb-2">What is a Bid Pack?  </li>
+                            <li class="mb-2">What is “Time as Highest Bidder?”</li>
+                            <li class="mb-2">Promotions</li>
+                            <li class="mb-2">Orders & Shipping</li>
+                            <li class="mb-2">Payments</li>
+                            <li class="mb-2">House Rules</li>
+                            <li class="mb-2">Royalty Program</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="mb-3 fw-bolder">About</h5>
+                        <ul class="p-0">
+                            <li class="mb-2">Careers</li>
+                            <li class="mb-2">Our team</li>
+                            <li class="mb-2">Suppliers</li>
+                            <li class="mb-2">About Us</li>
+                            <li class="mb-2">Terms of Use</li>
+                            <li class="mb-2">Privacy Policy</li>
+                            <li class="mb-2">Accessibility</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="mb-3 fw-bolder">Let's Talk</h5>
+                        <ul class="p-0 mb-4">
+                            <li class="mb-2">
+                                <a href="tel:(877) 800-9998 ">
+                                    <i class="fa-solid fa-phone me-4 rounded-circle text-white mb-3"></i>
+                                    (877) 800-9998
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="mailto:Pritiauction@gmail.com ">
+                                    <i class="fa-solid fa-sms me-4 rounded-circle text-white"></i>
+                                    Pritiauction@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                        <h5 class="mb-3 fw-bolder">Find Us</h5>
+                        <ul class="p-0 mb-4">
+                            <li class="mb-2 d-flex">
+                                <i class="fa-solid fa-route me-4 rounded-circle text-white mb-3"></i>
+                                502 New Design Str Melbourne, Australia
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="container-fluid footLine">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-start text-white">
+                        <article>
+                            © PritiAuction - All Rights Reserved
+                        </article>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <img src="images/Group 869.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

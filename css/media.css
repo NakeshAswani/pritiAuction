@@ -1,0 +1,12 @@
+@media only screen and (min-width: 200px) and (max-width: 575px)
+{
+    .navbarUl{
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px)
+{
+    .navbarUl{
+        gap: 20px;
+    }
+}
